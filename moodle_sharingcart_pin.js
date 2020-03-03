@@ -13,7 +13,7 @@ if (isPinned == "") {
 } else if (isPinned == "true") {
     $('#cartpin').css({ 'color': 'red' });
     $('#cartpin').prop('title', 'Fjern pin til toppen');
-    $('.block_sharing_cart').css({ 'position': 'fixed', 'top': '75px', 'z-index': '1000' });
+    $('.block_sharing_cart').css({ 'position': 'fixed', 'top': '75px', 'z-index': '1000', 'max-width':'350px' });
 }
 
 //setup eventhandler for cartpin icon
@@ -23,13 +23,13 @@ $('#cartpin').on("click", function () {
         isPinned = "false";
         $('#cartpin').css({ 'color': 'green' });
         $('#cartpin').prop('title', 'Pin delekurv til top');
-        $('.block_sharing_cart').css({ 'position': '', 'top': '', 'z-index': '' });
+        $('.block_sharing_cart').css({ 'position': '', 'top': '', 'z-index': '', 'max-width':'' });
     } else if (isPinned == "false") {  
         setCookie("isPinned", "true");
         isPinned = "true";     
         $('#cartpin').css({ 'color': 'red' });
         $('#cartpin').prop('title', 'Fjern pin til toppen');
-        $('.block_sharing_cart').css({ 'position': 'fixed', 'top': '75px', 'z-index': '1000' });
+        $('.block_sharing_cart').css({ 'position': 'fixed', 'top': '75px', 'z-index': '1000', 'max-width':'350px' });
     }
 });
 
