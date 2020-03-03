@@ -4,6 +4,10 @@ Make sharingcart in Moodle pin to top
 ## Få mulighed for at "pinne" delekurven til toppen af siden
 Du har nu mulighed for at få delekurven i Moodle til at følge med ned på siden, når der scrolles ned.
 
+## Eksempel
+
+![alt text](https://github.com/claushansen/moodle-sharing-cart-pin/blob/master/images/guide-0.jpg "eksempel")
+
 ## Setup
 
 #### 1. Tilføj ny blok til kurset
