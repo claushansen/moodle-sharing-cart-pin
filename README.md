@@ -36,4 +36,13 @@ Make sharingcart in Moodle pin to top
 * [Kopier koden fra denne side](https://raw.githubusercontent.com/claushansen/moodle-sharing-cart-pin/master/block.html)
 * Indsæt koden i editor
 
+#### 7. Vælg hvor blokken skal vises
+![alt text](https://github.com/claushansen/moodle-sharing-cart-pin/blob/master/images/guide-7.jpg "Vælg hvor blokken vises")
 
+1. Klik på "Hvor denne blok vises".
+2. Vælg "alle kursussider".
+
+#### 8. Gem og afslut
+![alt text](https://github.com/claushansen/moodle-sharing-cart-pin/blob/master/images/guide-8.jpg "Gem")
+
+* Tryk gem.
